@@ -1,0 +1,13 @@
+spring:
+  application:
+    name: config-client
+  cloud:
+    config:
+      uri: http://localhost:2005/
+      profile: dev
+      label: master
+  output:
+    ansi:
+      enabled: ALWAYS
+server:
+  port: 2006

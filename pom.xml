@@ -16,6 +16,8 @@
         <module>eureka_consumer</module>
         <module>eureka_consumer_ribbon</module>
         <module>eureka_consumer_feign</module>
+        <module>config_server_git</module>
+        <module>config_client</module>
     </modules>
     <packaging>pom</packaging>
     <name>基础依赖版本管理</name>
